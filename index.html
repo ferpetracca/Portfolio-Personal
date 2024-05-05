@@ -5,10 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
+    <title>Portfolio Fernando Petracca</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+
+
+<!-- Floating -->
+<section id="inicio" class="inicio">
+<div class="container">
+	<div class="avatar">
+		<a href="https://www.linkedin.com/in/fernando-petracca/" target="_blank">
+			<img src="img/hero.png" alt="" />
+		</a>
+	</div>
+	<div class="content">
+	<h1>Fernando Petracca</h1>
+            <h2>¡Sigamos en contacto! 🚀</h2>
+            <div class="redes">
+                <a href="https://wa.link/ac7p7c"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:petraccafer@gmail.com?subject=Este es el titulo&body=Este es el cuerpo" target="_blank"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a>
+            </div>
+	</div>
+</div>
+</section>
+
+
+    <!-- Loading Spinner -->
+    <div class="loader"></div>
+
+
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
         <header>
@@ -21,7 +47,6 @@
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -30,26 +55,13 @@
         </header>
     </div>
 
-    <!-- SECCION INICIO -->
-    <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="img/hero.png" alt="">
-            </div>
-            <h1>Fernando Petracca</h1>
-            <h2>Especialista de HR y Datos</h2>
-            <div class="redes">
-                <a href="https://wa.link/ac7p7c"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://www.linkedin.com/in/fernando-petracca/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-        </div>
-    </section>
 
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p><span>Hola, ¡Soy Fernando Petracca!.</span> Especialista en HR y análisis de datos. Mi pasión por la optimización de procesos y la mejora continua me motiva a perfeccionarme constantemente. Con un fuerte compromiso con la innovación, siempre estoy buscando nuevas formas de impulsar el rendimiento tecnológico. ¡Estoy entusiasmado por colaborar contigo!</p>
+            <p><span>Hola, ¡Soy Fernando Petracca!.</span> Especialista en HR y apasionado por los datos. Mi dedicación por la optimización de procesos y la mejora continua me motiva a perfeccionarme constantemente. Con un fuerte compromiso con la innovación, siempre estoy buscando nuevas formas de impulsar valor agregado.
+                </p>
 
             <div class="fila">
                 <!-- datos personales -->
@@ -98,13 +110,25 @@
                     </div>
                 </div>
             </div>
+
+            <div class="contenido-seccion2">
+                   
+                <p><span>"Si no se puede medir</span> no se puede mejorar"</p>
+        
+                <div class="fila">
+
             <button>
+
                 Descargar CV 
                 <a href="https://drive.google.com/file/d/1oeULcPfr7KxvW2oaJlnXKj0JxhfR7inc/view?usp=sharing" target="_blank"><i class="fa-solid fa-download"></i></a>
                 </div>
                 <span class="overlay"></span>
             </button>
         </div>
+
+
+
+        
     </section>
 
     <!-- SECCION SKILLS -->
@@ -188,6 +212,11 @@
         </div>
     </section>
 
+
+
+
+
+
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
@@ -220,51 +249,11 @@
                     </div>
                 </div>
                 
+                
             </div>
         </div>
     </section>
-
-    <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Mi Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
-                <!-- Mapa -->
-                <div class="col">
-                    <img src="img/ubicacion.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Buenos Aires, Argentina
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Comunicate al: +54 11 6011-4703
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Email: petraccafer@gmail.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    
     <!-- footer -->
     <footer>
         <a href="#inicio" class="arriba">
@@ -274,8 +263,16 @@
             <a href="https://wa.link/ac7p7c"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             <a href="https://www.linkedin.com/in/fernando-petracca/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
+        
+        <div class="conten">
+                   
+            <p><span>Copyright </span> © 2024 Fernando Petracca</p>
+        </div>  
+
     </footer>
 
     <script src="script.js"></script>
 </body>
+
+
 </html>
