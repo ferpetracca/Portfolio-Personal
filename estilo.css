@@ -299,12 +299,11 @@ html{
     font-family: 'Gilroy';
     text-align: center;
     padding: 20px 0;
-
 }
 .sobremi .contenido-seccion p{
-    font: 18px;
-    line-height: 22px;
-    margin-bottom: 20px;
+    font: 22px;
+    line-height: 50px;
+    margin-bottom: 50px;
 }
 .sobremi .contenido-seccion p span{
     color: #8733FF;
@@ -412,7 +411,6 @@ html{
     color: #ECFA4A;
     font-weight: bold;
 }
-
 
 
 /* SECCION S K I L L S */
@@ -592,10 +590,12 @@ html{
 }
 .portfolio .galeria .proyecto{
     position: relative;
-    max-width: 340px;
+    max-width: 500;
     height: fit-content;
-    margin: 5px;
+    
     cursor: pointer;
+    margin: 10PX;
+    
 }
 
 
@@ -614,7 +614,7 @@ html{
     flex-direction: column;
     justify-content: center;
     transition: 1s;
-    font-size: 22px;
+    font-size: 26px;
     letter-spacing: 2.3px;
     opacity: 0;
 }
